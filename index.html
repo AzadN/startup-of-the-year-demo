@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <meta charset="utf-8"> <!-- meta: Addition website info. viewport enables creating mobile-first websites i.e. provide features like touch, scroll, zoom when viewed on a mobile device. Also helps to scale webpage as per window zoom size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+<!--     Another way of making text uppercase along with adding it to the CSS element is to use inbuilt bootstrap styling classes-->
+    <div class="container d-flex align-items-center h-100"> <!-- d-flex :Enablex flex on container. h-100 Enables the container to span across whole page since aligning the elements to center won't work as the container spans across only its elements -->
+      <div class="row"> 
+      <header class="text-center col-12"> <!-- Make the header & section occupy whole container grid width rather than being scaled down according to their content -->
+        <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
+      </header>
+      <div class="buffer col-12"></div>
+      <section class="text-center col-12">
+        <hr>
+        <a href="https://mailchi.mp/fb93d272e666/ztmstudents">
+          <button class="btn btn-primary btn-xl">Find out more</button>
+        </a>
+      </section>
+      </div>
+    </div> 
+  </body>
+</html>
